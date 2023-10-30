@@ -1,0 +1,98 @@
+.rectangle{
+    display: none;
+}
+.web-view{
+    display: none;
+}
+.mobile-view{
+    display: block;
+}
+
+.container{
+    max-width: 430px;
+    margin: auto;
+}
+.home-form{
+   flex-direction: column;
+}
+.home-card-grid{
+    grid-template-columns: 1fr;
+}
+
+.home-section .image-rectangles img{
+    height: 100%;
+    width: 100%;
+}
+
+footer .flex{
+    flex-direction: column;
+}
+
+.logo{
+    font-size: 3rem;
+}
+
+
+.hero .tagline{
+    font-size: 2rem;
+    max-width: 100%;
+}
+.hero{
+    height: 300px;
+}
+
+.hero svg{
+   height: 40px;
+   margin-top: 1rem;
+}
+.home-form img{
+    height: 100%;
+    width: 100%;
+ }
+ .home-form{
+    margin-top: 1rem;
+}
+ .form-div p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.home-form .form-div{
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.form-div form label{
+    font-size: 1rem;
+}
+
+.home-section img[alt="aim"]{
+   display: none;
+}
+.home-section h1{
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.home-section p{
+    font-size: 12px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.home-section>*{
+    margin-top: 1rem;
+}
+
+.home-card p{
+    font-size: 12px;
+}
+
+.home-card h1{
+    font-size: 1.3rem;
+}
+
+footer .flex>*{
+    margin-right: 0;
+    margin-bottom: 1rem;
+}
