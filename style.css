@@ -843,3 +843,6 @@ footer .flex>*{
     padding: 10px;
     border-radius: 50px;
 }
+.rectangle{
+    display: none;
+}
